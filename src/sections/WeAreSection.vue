@@ -20,15 +20,40 @@ import Button from "../components/Button.vue";
         </p>
         <Button text="leia mais" link="#" />
       </div>
+      <img class="weare__image" src="../assets/we-are-image.jpg" alt="" />
     </div>
   </section>
 </template>
 
 <style scoped>
+.weare {
+  background-color: #fff9db;
+}
+.weare__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  padding: 5.938rem 2rem 5.938rem 2rem;
+}
+.weare__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 26.563rem;
+  gap: 1.313rem;
+}
 .weare__title {
   font-size: 2.5rem;
 }
 .weare__description {
   font-size: 1.25rem;
+}
+
+@media (max-width: 900px) {
+  .weare__image {
+    display: none;
+  }
 }
 </style>
