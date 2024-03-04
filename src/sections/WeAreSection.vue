@@ -1,0 +1,34 @@
+<script setup>
+import Button from "../components/Button.vue";
+</script>
+
+<template>
+  <section class="weare">
+    <div class="weare__container">
+      <div class="weare__content">
+        <h2 class="weare__title">NOS SOMOS A MINISTRAL ELETRICA</h2>
+        <p class="ware__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim aliquet urna ut congue. Morbi libero elit, accumsan ut
+          laoreet in, suscipit ac elit. Proin blandit rutrum nulla at congue.
+          Nam felis magna, pellentesque ac est et, suscipit ullamcorper sapien.
+          Mauris sed gravida augue. Praesent ac consequat enim. Phasellus quis
+          commodo diam, nec molestie mauris. Proin congue, odio non commodo
+          ultricies, justo arcu facilisis ligula, quis lacinia tortor nibh id
+          leo. Proin fermentum efficitur mattis. Proin quam magna, tempor vel
+          sagittis et, malesuada a est.
+        </p>
+        <Button text="leia mais" link="#" />
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped>
+.weare__title {
+  font-size: 2.5rem;
+}
+.weare__description {
+  font-size: 1.25rem;
+}
+</style>
