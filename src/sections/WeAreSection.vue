@@ -13,10 +13,7 @@ import Button from "../components/Button.vue";
           laoreet in, suscipit ac elit. Proin blandit rutrum nulla at congue.
           Nam felis magna, pellentesque ac est et, suscipit ullamcorper sapien.
           Mauris sed gravida augue. Praesent ac consequat enim. Phasellus quis
-          commodo diam, nec molestie mauris. Proin congue, odio non commodo
-          ultricies, justo arcu facilisis ligula, quis lacinia tortor nibh id
-          leo. Proin fermentum efficitur mattis. Proin quam magna, tempor vel
-          sagittis et, malesuada a est.
+          commodo diam, nec molestie mauris.
         </p>
         <Button text="leia mais" link="#" />
       </div>
@@ -54,6 +51,9 @@ import Button from "../components/Button.vue";
 @media (max-width: 900px) {
   .weare__image {
     display: none;
+  }
+  .weare__title {
+    font-size: 2rem;
   }
 }
 </style>
